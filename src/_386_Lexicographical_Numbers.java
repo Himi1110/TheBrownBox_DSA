@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class _386_Lexicographical_Numbers {
-    public List<Integer> lexicalOrder(int n) {
+    public static List<Integer> lexicalOrder(int n) {
         List<String> listString = new ArrayList<>();
         for(int i = 1;i <= n;i++){
             listString.add(String.valueOf(i));
@@ -19,6 +19,6 @@ public class _386_Lexicographical_Numbers {
         return result;
     }
     public static void main(String[] args) {
-
+        System.out.println(lexicalOrder(100));
     }
 }
