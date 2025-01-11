@@ -3,7 +3,7 @@ public class _1694_Reformat_Phone_Number {
         StringBuilder sb = new StringBuilder();
 
         for(char i : number.toCharArray()){
-            if(i>='0'&&i<=9){
+            if(i>='0'&&i<='9'){
                 sb.append(i);
             }
         }
