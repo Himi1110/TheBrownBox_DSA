@@ -1,7 +1,7 @@
 public class BackTrackingBasic {
-    private static String[] colors = {"red", "green", "blue", "yellow", "purple"};
-    private static int[] selections = new int[colors.length];
-    private static int[] validValue = new int[]{0,1};
+    private static final String[] colors = {"red", "green", "blue", "yellow", "purple"};
+    private static final int[] selections = new int[colors.length];
+    private static final int[] validValue = new int[]{0,1};
     private static int count = 0;
 
     private static void backtrack(int curIndex){
